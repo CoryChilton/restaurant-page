@@ -1,5 +1,7 @@
 import home from './home.js';
 import menu from './menu.js';
+import contact from './contact.js';
+import './style.css';
 
 const displayController = (function(){
   const homeButton = document.getElementById('home-button');
@@ -8,13 +10,11 @@ const displayController = (function(){
   const contentDiv = document.getElementById('content');
   homeButton.addEventListener('click', () => {clearContent(); home();});
   menuButton.addEventListener('click', () =>{clearContent(); menu();});
-  
-
-  // menuButton.addEventListener('click', menuClick);
+  contactButton.addEventListener('click', () =>{clearContent(); contact();});
 
   function clearContent(){
     contentDiv.textContent = "";
   }
-})();
 
-menu();
+  home();
+})();
