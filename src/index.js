@@ -1,3 +1,4 @@
-import pageLoad from './page-load.js';
+import home from './home.js';
+import menu from './menu.js';
 
-pageLoad();
+menu();
