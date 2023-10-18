@@ -16,5 +16,5 @@ const displayController = (function(){
     contentDiv.textContent = "";
   }
 
-  home();
+  contact();
 })();
