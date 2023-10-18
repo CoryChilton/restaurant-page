@@ -1,1 +1,1 @@
-console.log("hello world!");
+(()=>{"use strict";!function(){const e=document.querySelector("div#content"),t=document.createElement("h1");t.textContent="Nachoria";const n=document.createElement("img");n.setAttribute("src","/src/nachos.jpg");const c=document.createElement("h2");c.textContent="The best nachos in the world!",e.appendChild(t),e.appendChild(n),e.appendChild(c),console.log("done")}()})();
